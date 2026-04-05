@@ -12,7 +12,7 @@ $$u_{tt} - u_{xx} - 3(u^2)_{xx} - u_{xxxx} = 0$$
 ## 🚀 Key Features
 *   **Self-Developed Implementation:** While inspired by existing literature, the codebase is built from scratch to explore gradient stability in high-order derivatives.
 *   **Physics-Constraint Integration:** The loss function incorporates the PDE residual directly via Automatic Differentiation (AD).
-*   **Comparative Analysis:** Results are validated against the benchmarks provided in the reference paper to ensure accuracy in capturing wave propagation and peak amplitudes.
+
 
 ## 🏗 Project Architecture
 The implementation is modularized for clarity and scalability:
