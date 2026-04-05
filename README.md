@@ -17,10 +17,10 @@ $$u_{tt} - u_{xx} - 3(u^2)_{xx} - u_{xxxx} = 0$$
 ## 🏗 Project Architecture
 The implementation is modularized for clarity and scalability:
 
-1.  **`imports.py`**: Centralized management of dependencies (PyTorch/TensorFlow, NumPy, Matplotlib).
+1.  **`import.py`**: Centralized management of dependencies (PyTorch/TensorFlow, NumPy, Matplotlib).
 2.  **`network.py`**: Definition of the Deep Neural Network architecture, including custom initialization and activation functions (e.g., Tanh/Swish) suitable for higher-order derivatives.
 3.  **`main.py`**: The training, including the sampling, loss function formulation (Data + Physics + Boundary), and optimizer scheduling (Adam + L-BFGS).
-4.  **`testing_plot.py`**: Evaluation scripts to calculate L2 relative error and generate contour plots, 3D surface visualizations, and temporal snapshots.
+4.  **`testing+sample_plot.py`**: Evaluation scripts to calculate L2 relative error and generate contour plots, 3D surface visualizations, and temporal snapshots.
 
 ## 📊 Results
-Our implementation successfully captures the nonlinear dynamics of the Boussinesq system. Detailed comparisons regarding convergence rates and residual minimization are documented in the `/results` folder.
+Our implementation successfully captures the nonlinear dynamics of the Boussinesq system. Detailed comparisons regarding convergence rates and residual minimization are documented in the report, which also provides a brief description of the work.
