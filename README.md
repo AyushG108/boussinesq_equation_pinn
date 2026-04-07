@@ -22,5 +22,3 @@ The implementation is modularized for clarity and scalability:
 3.  **`main.py`**: The training, including the sampling, loss function formulation (Data + Physics + Boundary), and optimizer scheduling (Adam + L-BFGS).
 4.  **`testing+sample_plot.py`**: Evaluation scripts to calculate L2 relative error and generate contour plots, 3D surface visualizations, and temporal snapshots.
 
-## Results
-Our implementation successfully captures the nonlinear dynamics of the Boussinesq system. Detailed comparisons regarding convergence rates and residual minimization are documented in the report, which also provides a brief description of the work.
